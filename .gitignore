@@ -1,0 +1,6 @@
+node_modules/
+.coda-credentials.json
+*.log
+.DS_Store
+_upload_build/
+dist/

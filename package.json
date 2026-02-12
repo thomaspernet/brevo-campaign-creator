@@ -1,0 +1,27 @@
+{
+  "name": "brevo-campaign-creator",
+  "version": "1.0.0",
+  "description": "Coda Pack for managing Brevo email campaigns, contacts, and templates",
+  "main": "pack.ts",
+  "scripts": {
+    "build": "npx coda build",
+    "upload": "npx coda upload pack.ts --notes 'Initial upload'",
+    "release": "npx coda release pack.ts"
+  },
+  "dependencies": {
+    "@codahq/packs-sdk": "^1.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "coda",
+    "pack",
+    "brevo",
+    "email",
+    "campaigns",
+    "marketing"
+  ],
+  "author": "",
+  "license": "MIT"
+}
